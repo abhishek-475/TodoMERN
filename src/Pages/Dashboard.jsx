@@ -26,15 +26,15 @@ function Dashboard() {
     } else {
       const newTaskObj = { task: newtask, status: false };
 
-      setTasks([...tasks, newTaskObj]);
+      // setTasks([...tasks, newTaskObj]);
 
-      setNewTask("");
+      // setNewTask("");
 
       try {
         const res = await addTask(newTaskObj);
         if (res.status == 200 || res.status == 201) {
-          // setTasks([...tasks, res.data]);
-          // setNewTask("");
+          setTasks([...tasks, res.data]);
+          setNewTask("");
           toast.success("Task Added Successfully!!");
         } else {
           toast.error("Task Adding Failed!!");
