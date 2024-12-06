@@ -10,7 +10,7 @@ function Header() {
           <Navbar.Brand href="/">
           <i className="fa-solid fa-list" size="lg" style={{color: "#0f0f10",}} />
             {" "}
-            ToDo App
+            TaskMaster
           </Navbar.Brand>
         </Container>
       </Navbar>

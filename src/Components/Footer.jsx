@@ -8,8 +8,8 @@ function Footer() {
     <div className="container-fluid  bg-dark text-white p-3 ">
         <Row className='d-flex'>
             <Col sm={6} lg={7}>
-                <h5>TODO APP</h5>
-                <p style={{textAlign:"justify"}}> Welcome to TODO App,a simple and intuitive application designed to
+                <h5>TaskMaster</h5>
+                <p style={{textAlign:"justify"}}> Welcome to TaskMaster App,a simple and intuitive application designed to
                 help you stay organized and manage your tasks effectively.</p>
             </Col>
             <Col sm={6} lg={2}>
@@ -21,11 +21,11 @@ function Footer() {
             </Col>
             <Col sm={6} lg={3}>
             <h5>Contact Us</h5>
-            <p style={{textAlign:"justify"}}>abhishekpavi6@gmail.com</p>
+            <p style={{textAlign:"justify"}}>taskmaster@gmail.com</p>
             </Col>
         </Row>
         <div className="text-center">
-        <p>&copy; 2024 TODOApp. All Rights Reserved.</p>
+        <p>&copy; 2024 TaskMaster. All Rights Reserved.</p>
         </div>
     </div>
     </>
